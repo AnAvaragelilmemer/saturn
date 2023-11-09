@@ -5,7 +5,7 @@ by Darkrai | Y
 located on: https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/AuraIS/Main
 Note: This UI library is not intended for modifying the core functionality
 ]]
-local a = "Alpha 0.1"
+local a = "Alpha 0.2"
 local b = 5
 local c = "AuraIS"
 local d = c .. "/Configurations"
@@ -140,6 +140,7 @@ function e:CreateLibrary(G, H)
     local K = J.Buttons
     local L = w.Main.TabContainer
     J.NameText.Text = I.Name
+    J.NameText.RichText = true
     J.Icon.Image = I.Icon
     e:DragFunc(J, w.Main)
     K.Parent.Minimize.MouseButton1Click:Connect(
