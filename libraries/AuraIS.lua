@@ -5,7 +5,7 @@ by Darkrai | Y
 located on: https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/AuraIS/Main
 Note: This UI library is not intended for modifying the core functionality
 ]]
-local a = "Alpha 0.2"
+local a = "Alpha 0.3"
 local b = 5
 local c = "AuraIS"
 local d = c .. "/Configurations"
@@ -577,9 +577,7 @@ function e:CreateLibrary(G, H)
                 aP.Main.Progress.Size =
                     UDim2.new(
                     0,
-                    aP.Main.AbsoluteSize.X * (aN.CurrentValue + aN.Value[1]) / (aN.Value[2] - aN.Value[1]) > 5 and
-                        aP.Main.AbsoluteSize.X * aN.CurrentValue / (aN.Value[2] - aN.Value[1]) or
-                        5,
+                    5, --haha fuck you autoreadjust
                     1,
                     0
                 )
