@@ -633,7 +633,7 @@ function e:CreateLibrary(G, H)
                                     elseif aR >= aT and aT - aS > 0 then
                                         aS = aT
                                     end
-                                    aP.Main.Progress.Size = UDim2.new(0, aR - aP.Main.AbsolutePosition.X, 1, 0)
+                                    aP.Main.Progress.Size = UDim2.new(0, 5, 1, 0)
                                     local aV =
                                         aN.Value[1] +
                                         (aT - aP.Main.AbsolutePosition.X) / aP.Main.AbsoluteSize.X *
@@ -657,7 +657,7 @@ function e:CreateLibrary(G, H)
                                     aP.Main.Progress.Size =
                                         UDim2.new(
                                         0,
-                                        aT - aP.Main.AbsolutePosition.X > 5 and aT - aP.Main.AbsolutePosition.X or 5,
+                                        5,
                                         1,
                                         0
                                     )
