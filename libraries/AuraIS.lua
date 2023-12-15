@@ -572,6 +572,7 @@ function e:CreateLibrary(G, H)
                 aP.Title.Text = aN.Name
                 aP.Title.TextScaled = false
                 aP.Visible = true
+                aP.SizeConstraint = "RelativeXX"
                 aP.Parent = a0
                 a2()
                 aP.Main.Progress.Size =
