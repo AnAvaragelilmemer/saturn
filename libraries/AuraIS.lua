@@ -671,9 +671,7 @@ function e:CreateLibrary(G, H)
                     aP.Main.Progress.Size =
                         UDim2.new(
                         0,
-                        aP.Main.AbsoluteSize.X * (aW + aN.Value[1]) / (aN.Value[2] - aN.Value[1]) > 5 and
-                            aP.Main.AbsoluteSize.X * aW / (aN.Value[2] - aN.Value[1]) or
-                            5,
+                        5, --fuck you readjust #2
                         1,
                         0
                     )
