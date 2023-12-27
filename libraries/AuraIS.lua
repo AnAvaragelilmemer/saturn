@@ -575,6 +575,7 @@ function e:CreateLibrary(G, H)
                 aP.SizeConstraint = "RelativeXX"
                 aP.Parent = a0
                 a2()
+                aP.Main.Progress.BackgroundColor3 = Color3.fromRGB(0,235,255)
                 aP.Main.Progress.Size =
                     UDim2.new(
                     0,
