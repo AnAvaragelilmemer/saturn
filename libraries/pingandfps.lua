@@ -1,16 +1,15 @@
-getgenv().module = {}
-local function module.LaunchFPS()
+function LaunchFPS()
 getgenv().SATURNFPS = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UIPadding = Instance.new("UIPadding")
 local UICorner = Instance.new("UICorner")
-FPS.Name = "FPS"
-FPS.Parent = game:GetService("CoreGui")
-FPS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SATURNFPS.Name = "FPS"
+SATURNFPS.Parent = game:GetService("CoreGui")
+SATURNFPS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = FPS
+Frame.Parent = SATURNFPS
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BackgroundTransparency = 0.500
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -64,7 +63,7 @@ UICorner.Parent = Frame
 	end
 	coroutine.wrap(IGAJV_fake_script)()
 end
-local function module.LaunchPING()
+function LaunchPING()
 	getgenv().Ping = Instance.new("ScreenGui")
 	local Frame = Instance.new("Frame")
 	local TextLabel = Instance.new("TextLabel")
@@ -130,4 +129,5 @@ local function module.LaunchPING()
 	end
 	coroutine.wrap(OLELYTM_fake_script)()
 end
-return module
+LaunchFPS()
+LaunchPING()
