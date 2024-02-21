@@ -1,4 +1,4 @@
-local module = {}
+getgenv().module = {}
 local function module.LaunchFPS()
 getgenv().SATURNFPS = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
