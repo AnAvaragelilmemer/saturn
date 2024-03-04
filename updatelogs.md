@@ -26,3 +26,5 @@
 [+] Reworked Playlist, adding a new song in it.
 
 [+] New waypoint system in movement tab
+
+[+] New Teleport method: Blox fruit, all modules having a teleport method should have it
