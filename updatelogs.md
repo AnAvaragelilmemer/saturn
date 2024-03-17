@@ -1,3 +1,5 @@
+## Small Update, or Version 1.701x
+[-] added a time on anti webhook and httpgetspy it should look like this "[02-13-24, 11;22:33] URL: blahblahblah"
 ## This update log is for Version 1.7x.
 [-] Removed Executor from Miscellaneous tab
 
