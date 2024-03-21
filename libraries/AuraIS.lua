@@ -41,9 +41,9 @@ v4.DragFunc = function(v21, v22, v23)
 end;
 v4.ToggleUI = function(v28)
 	if game.CoreGui[v5].Enabled then
-		game.CoreGui[v5].Enabled = false;
+		game.CoreGui["UI_Library"].Enabled = false;
 	else
-		game.CoreGui[v5].Enabled = true;
+		game.CoreGui["UI_Library"].Enabled = true;
 	end
 end;
 local v8 = game:GetService("TextService");
