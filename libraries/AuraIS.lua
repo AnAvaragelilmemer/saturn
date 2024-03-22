@@ -40,7 +40,7 @@ v4.DragFunc = function(v21, v22, v23)
 	end);
 end;
 v4.ToggleUI = function(v28)
-	if game.CoreGui[v5].Enabled then
+	if game.CoreGui["UI_Library"].Enabled then
 		game.CoreGui["UI_Library"].Enabled = false;
 	else
 		game.CoreGui["UI_Library"].Enabled = true;
