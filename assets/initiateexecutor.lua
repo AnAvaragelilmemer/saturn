@@ -1,5 +1,5 @@
 --[[
-Since Bread is no longer maintaining the syntax highlighting and now deleted., i decided to use a alternative and used probablYnicK's LunarExecutor since this is the only internal executor i have found with bread's syntax highlighting.
+Since Bread is no longer maintaining the syntax highlighting and now deleted., i decided to use a alternative and used probablYnicK's LunarExecutor since this is the only internal executor i have found with bread's syntax highlighting and modified it too.
 ]]
 -- Lexer by sleitnick
 -- Everything else by me, bread. lol.
@@ -39,7 +39,7 @@ local function LoadCustomInstance(url)
 end
 
 function module.new(frame)
-	local newEditor = LoadCustomInstance("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/saturn%20editor%20v1.0.rbxm?raw=true")
+	local newEditor = LoadCustomInstance("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/saturn%20editor%20v1.1.rbxm?raw=true")
 	repeat until newEditor:FindFirstChild("Scroll")
 	newEditor.Parent = frame
 
