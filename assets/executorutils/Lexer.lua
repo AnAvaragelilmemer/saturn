@@ -102,7 +102,7 @@ local lua_builtin = {
 	["Random"] = true;["Ray"] = true;["Rect"] = true;["Region3"] = true;["Region3int16"] = true;
 	["TweenInfo"] = true;["UDim"] = true;["UDim2"] = true;["Vector2"] = true;["Vector3"] = true;
 	["Vector3int16"] = true;["next"] = true;
-	["getgenv"] = true;["getrenv"] = true;["getsenv"] = true;["getreg"] = true;["getgc"] = true;["getinstances"] = true;["getnilinstances"] = true;["getscripts"] = true;["getloadedmodules"] = true;["getconnections"] = true;["firesignal"] = true;["fireclickdetector"] = true;["firetouchinterest"] = true;["getallthreads"] = true;["gettenv"] = true;["getclipboard"] = true;
+	["getgenv"] = true;["getrenv"] = true;["getsenv"] = true;["getreg"] = true;["getgc"] = true;["getinstances"] = true;["getnilinstances"] = true;["getscripts"] = true;["getloadedmodules"] = true;["getconnections"] = true;["firesignal"] = true;["fireclickdetector"] = true;["firetouchinterest"] = true;["getallthreads"] = true;["gettenv"] = true;["getclipboard"] = true;["getcustomasset"] = true;
 	["os"] = true;
 		--["os.time"] = true;["os.date"] = true;["os.difftime"] = true;
 	["debug"] = true;
