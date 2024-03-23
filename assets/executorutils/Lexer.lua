@@ -141,7 +141,7 @@ local function lua_vdump(tok)
 	if (lua_keyword[tok]) then
 		return yield("keyword", tok)
 	elseif (lua_builtin[tok]) then
-		return yield(true; tok)
+		return yield("builtin", tok)
 	else
 		return yield("iden", tok)
 	end
