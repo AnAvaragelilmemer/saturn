@@ -11,7 +11,7 @@ local theme = {
 		},
 		["extra 2"] = {
 			["keyword"] = Color3.fromRGB(0, 51, 179),
-			["builtin"] = Color3.fromRGB(0, 55, 166),
+			["builtin"] = Color3.fromRGB(6, 182, 212),
 			["string"] = Color3.fromRGB(132, 204, 22),
 			["number"] = Color3.fromRGB(23, 80, 235),
 			["comment"] = Color3.fromRGB(38, 38, 38),
