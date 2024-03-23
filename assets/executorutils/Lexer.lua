@@ -115,6 +115,7 @@ local lua_builtin = {
 		--["string.byte"] = true;["string.char"] = true;["string.dump"] = true;["string.find"] = true;["string.format"] = true;["string.len"] = true;["string.lower"] = true;["string.match"] = true;["string.rep"] = true;["string.reverse"] = true;["string.sub"] = true;["string.upper"] = true;["string.gmatch"] = true;["string.gsub"] = true;
 	["table"] = true;
 		--["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
+	["task"] = true;
 }
 
 local function tdump(tok)
