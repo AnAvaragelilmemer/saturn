@@ -28,7 +28,7 @@ local words = {
 	["string"] = "builtin";
 	["table"] = "builtin";
 	["task"] = "builtin";
-
+        ["getcustomasset"] = "builtin";
 }
 
 return words
