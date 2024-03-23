@@ -31,6 +31,8 @@ local words = {
   ['else'] = 'keyword',
   ['return'] = 'keyword',
   ['local'] = 'keyword',
+  ["getgenv()"] = "keyword",
+  ["getrenv()"] = "keyword"
 }
 
 return words
