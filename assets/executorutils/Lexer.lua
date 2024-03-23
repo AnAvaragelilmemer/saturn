@@ -79,11 +79,11 @@ local SCOMMENT2	= "^%-%-.-.*"							--Incompleted Singleline-Comment
 local THINGY 	= "^[%.:]%w-%s?%(.-%)"
 
 local lua_keyword = {
-	["and"] = true,  ["break"] = true,  ["do"] = true,      ["else"] = true,      ["elseif"] = true,
-	["end"] = true,  ["false"] = true,  ["for"] = true,     ["function"] = true,  ["if"] = true,
-	["in"] = true,   ["local"] = true,  ["nil"] = true,     ["not"] = true,       ["while"] = true,
-	["or"] = true,   ["repeat"] = true, ["return"] = true,  ["then"] = true,      ["true"] = true,
-	["self"] = true, ["until"] = true
+	["and"] = true;  ["break"] = true;  ["do"] = true;      ["else"] = true;      ["elseif"] = true;
+	["end"] = true;  ["false"] = true;  ["for"] = true;     ["function"] = true;  ["if"] = true;
+	["in"] = true;   ["local"] = true;  ["nil"] = true;     ["not"] = true;       ["while"] = true;
+	["or"] = true;   ["repeat"] = true; ["return"] = true;  ["then"] = true;      ["true"] = true;
+	["self"] = true; ["until"] = true
 }
 
 local lua_builtin = {
@@ -102,6 +102,7 @@ local lua_builtin = {
 	["Random"] = true;["Ray"] = true;["Rect"] = true;["Region3"] = true;["Region3int16"] = true;
 	["TweenInfo"] = true;["UDim"] = true;["UDim2"] = true;["Vector2"] = true;["Vector3"] = true;
 	["Vector3int16"] = true;["next"] = true;
+	["getgenv"] = true;["getrenv"] = true;["getsenv"] = true;["getreg"] = true;["getgc"] = true;["getinstances"] = true;["getnilinstances"] = true;["getscripts"] = true;["getloadedmodules"] = true;["getconnections"] = true;["firesignal"] = true;["fireclickdetector"] = true;["firetouchinterest"] = true;["getallthreads"] = true;["gettenv"] = true;["getclipboard"] = true;
 	["os"] = true;
 		--["os.time"] = true;["os.date"] = true;["os.difftime"] = true;
 	["debug"] = true;
@@ -140,7 +141,7 @@ local function lua_vdump(tok)
 	if (lua_keyword[tok]) then
 		return yield("keyword", tok)
 	elseif (lua_builtin[tok]) then
-		return yield("builtin", tok)
+		return yield(true; tok)
 	else
 		return yield("iden", tok)
 	end
