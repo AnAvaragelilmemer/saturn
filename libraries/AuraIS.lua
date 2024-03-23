@@ -861,7 +861,7 @@ v4.CreateLibrary = function(v32, v33, v34)
                 local fun = v39.Template.Executor:Clone()
                 fun.Name = "Executor"
                 fun.Parent = v102
-                local monaco = loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/initiateexecutor.lua?raw=true"))()
+                local monaco = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/saturn/main/assets/executorutils/initiateexecutor.lua"))()
                 monaco = monaco.new(fun,20)
             end
 			v101.CreateCard = function(v230, v231)
