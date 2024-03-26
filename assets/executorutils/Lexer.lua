@@ -76,7 +76,7 @@ local MCOMMENT1	= "^%-%-%[(=*)%[.-%]%1%]"				--Completed Multiline-Comment
 local MCOMMENT2	= "^%-%-%[%[.-.*"						--Incompleted Multiline-Comment
 local SCOMMENT1	= "^%-%-.-\n"							--Completed Singleline-Comment
 local SCOMMENT2	= "^%-%-.-.*"							--Incompleted Singleline-Comment
-local THINGY 	= "^[%.::]%w-%s?%(.-%)"
+local THINGY 	= "^[%,;]%w-%s?%(.-%)"
 
 local lua_keyword = {
 	["and"] = true;  ["break"] = true;  ["do"] = true;      ["else"] = true;      ["elseif"] = true;
