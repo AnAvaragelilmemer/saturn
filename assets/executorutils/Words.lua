@@ -29,6 +29,6 @@ local words = {
 	["table"] = "builtin";
 	["task"] = "builtin";
         ["getcustomasset"] = "builtin";
+        ["new"] = "builtin";
 }
-
 return words
