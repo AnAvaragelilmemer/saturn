@@ -116,6 +116,7 @@ local lua_builtin = {
 	["table"] = true;
 		--["table.concat"] = true;["table.insert"] = true;["table.remove"] = true;["table.sort"] = true;
 	["task"] = true;
+	["new"] = true;
 }
 
 local function tdump(tok)
