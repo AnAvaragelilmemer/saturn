@@ -1,3 +1,8 @@
+## Small Update for Saturn, or Version 1.801G
+[+] added syn into the executor, basically you can use synapse x scripts with this
+
+
+[+] new keywords (rconsole,file,more...)
 ## Small Update for Lexer
 [-] Thingy is now a easter egg, so you do game:IsLoaded(), it wont make :IsLoaded() into yellow, to make it yellow, just replace : with ;
 
