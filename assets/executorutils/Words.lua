@@ -30,5 +30,6 @@ local words = {
 	["task"] = "builtin";
         ["getcustomasset"] = "builtin";
         ["new"] = "builtin";
+	["syn"] = "builtin";
 }
 return words
