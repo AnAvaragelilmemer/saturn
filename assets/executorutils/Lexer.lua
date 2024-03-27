@@ -13,7 +13,7 @@
 		Tieske       <https://github.com/Tieske>       ----------------- Penlight lexer contributer
 		boatbomber   <https://github.com/boatbomber>   ----------------- Roblox port, optimizations, and bug fixes
 		Sleitnick    <https://github.com/Sleitnick>    ----------------- Roblox optimizations
-
+		irenaeuss    <https://github.com/AnAvaragelilmemer> ------------- Some Exploit Functions
 	Usage:
 
 		local source = "for i = 1,n do end"
