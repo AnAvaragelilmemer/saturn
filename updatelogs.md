@@ -1,6 +1,7 @@
 ## Small Update for Lexer
 [-] Thingy is now a easter egg, so you do game:IsLoaded(), it wont make :IsLoaded() into yellow, to make it yellow, just replace : with ;
-[+] Added new in Lexer
+
+[+] Added "new" in Lexer
 ## This update log is for Version 1.8G
 [+] Executor updates
 
