@@ -17,6 +17,7 @@ local theme = {
 			["comment"] = Color3.fromRGB(38, 38, 38),
 			["thingy"] = Color3.fromRGB(248, 245, 139),
 			["custom"] = Color3.fromRGB(170, 221, 255),
+   ["operators"] = Color3.fromRGB(170, 221, 255),
 		}
 	}
 }
