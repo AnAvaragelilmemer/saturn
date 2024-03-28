@@ -1,3 +1,12 @@
+## Bug Fixes!
+[+] Section:InitiateExecutor() is now in live!
+
+
+[-] (KNOWN ISSUE) fixed executor not working when you type too fast or use predictive text
+
+
+[-] (KNOWN ISSUE) fixed suggestion not focusing when you press it
+
 ## Small Update for Saturn, or Version 1.801G
 [+] added syn into the executor, basically you can use synapse x scripts with this
 
