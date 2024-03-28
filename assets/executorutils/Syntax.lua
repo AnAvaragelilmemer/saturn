@@ -19,7 +19,7 @@ local function ColorToFont(text, color)
 end
 
 function module.Highlight(textbox, source)
-	task.wait(0.1)
+	task.wait(0.08)
 	textbox.Text = ""
 
 	for tokenType, text in lexer.scan(source) do
