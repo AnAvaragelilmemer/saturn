@@ -121,7 +121,7 @@ local lua_builtin = {
 }
 
 local function tdump(tok)
-	return yield(tok, tok)
+	return yield("operator", tok)
 end
 
 local function ndump(tok)
@@ -181,6 +181,8 @@ local lua_matches = {
 	{"^%.%.%.", tdump},
 	{"^%.%.",   tdump},
 	{"^.",      tdump},
+ {"^(",      tdump},
+ {"^)",      tdump},
 }
 
 local num_lua_matches = #lua_matches
