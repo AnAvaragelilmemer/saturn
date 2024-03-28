@@ -15,7 +15,6 @@ function module.GetCurrentWord(self)
 end
 
 function module.Search(self)
-	task.wait(0.01)
 	local currentWord = self:GetCurrentWord():lower()
 	
 	if currentWord == "" and #currentWord <= 1 then
@@ -61,8 +60,7 @@ function module.Start(self, editor)
 		self.Textbox.Text = self.Textbox.Text:sub(1, self.Textbox.CursorPosition - 1 - (self.MatchedLength or 0)) .. word .. self.Textbox.Text:sub(self.Textbox.CursorPosition + 1, #self.Textbox.Text)
 		
 		local newCursorPosition = self.Textbox.CursorPosition + #word - self.MatchedLength
-		wait()
-		self.Textbox:ReleaseFocus()
+		task.wait(0.25)
 		self.Textbox:CaptureFocus()
 		self.Textbox.CursorPosition = newCursorPosition
 	end)
