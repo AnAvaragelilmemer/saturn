@@ -15,6 +15,7 @@ function module.GetCurrentWord(self)
 end
 
 function module.Search(self)
+	task.wait(0.01)
 	local currentWord = self:GetCurrentWord():lower()
 	
 	if currentWord == "" and #currentWord <= 1 then
