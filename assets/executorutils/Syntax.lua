@@ -19,7 +19,7 @@ local function ColorToFont(text, color)
 end
 
 function module.Highlight(textbox, source)
-	task.wait()
+	task.wait() --patches the issue where the executor will get stuck when you go fast in typing
 	textbox.Text = ""
 
 	for tokenType, text in lexer.scan(source) do
