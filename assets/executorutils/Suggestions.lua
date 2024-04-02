@@ -37,7 +37,9 @@ function module.Start(self, editor)
 	self.Editor = editor
 	self.Textbox = editor.Scroll.Source
 	self.SuggestionButton = self.Textbox.Suggestion
-	
+	self.SuggestionButton.Icon.Image = "rbxassetid://16980507190"
+	self.SuggestionButton.Icon.Size = UDim2.new(0,19,0,22)
+	self.SuggestionButton.Icon.Position = Udim.new(0,-26,0, 3)
 	self.Textbox:GetPropertyChangedSignal("Text"):Connect(function()
 		local foundWord, matchedLength = self:Search()
 		
