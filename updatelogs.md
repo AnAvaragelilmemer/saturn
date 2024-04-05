@@ -1,3 +1,5 @@
+## Small Update for Saturn, or Version 1.802G
+[+] Added AdLink Bypasser, credits 2 shehajeez for the api
 ## Bug Fixes!
 [+] Section:InitiateExecutor() is now in live!
 
