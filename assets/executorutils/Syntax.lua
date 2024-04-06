@@ -1,17 +1,13 @@
 local module = {}
 
 local function getm(mod)
-	if mod ~= "frameworker" then
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/saturn/main/assets/executorutils/"..mod..".lua"))()
-	else
-	return loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))()
-	end
 end
 
 local lexer 	= getm("Lexer")
 local theme 	= getm("Theme")
 local textFixer = getm("TextFixer")
-local frameworker = getm("frameworker")
+local frameworker = loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))()
 
 local function ColorToFont(text, color)
 	return string.format(
