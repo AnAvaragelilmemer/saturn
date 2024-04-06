@@ -10,14 +10,14 @@ local theme = {
 			["custom"] = Color3.fromRGB(170, 221, 255),
 		},
 		["extra 2"] = {
-			["keyword"] = Color3.fromRGB(0, 51, 179),
-			["builtin"] = Color3.fromRGB(6, 182, 212),
-			["string"] = Color3.fromRGB(132, 204, 22),
-			["number"] = Color3.fromRGB(23, 80, 235),
+			["keyword"] = Color3.fromRGB(30, 64, 175),
+			["builtin"] = Color3.fromRGB(29, 78, 216),
+			["string"] = Color3.fromRGB(147, 197, 253),
+			["number"] = Color3.fromRGB(30, 58, 138),
 			["comment"] = Color3.fromRGB(38, 38, 38),
 			["thingy"] = Color3.fromRGB(248, 245, 139),
 			["custom"] = Color3.fromRGB(170, 221, 255),
-   ["operators"] = Color3.fromRGB(170, 221, 255),
+                        ["operator"] = Color3.fromRGB(59, 130, 246),
 		}
 	}
 }
