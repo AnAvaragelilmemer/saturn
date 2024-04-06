@@ -1,12 +1,17 @@
 local module = {}
 
 local function getm(mod)
+	if mod ~= "frameworker" then
 	return loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/saturn/main/assets/executorutils/"..mod..".lua"))()
+	else
+	return loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))()
+	end
 end
 
 local lexer 	= getm("Lexer")
 local theme 	= getm("Theme")
 local textFixer = getm("TextFixer")
+local frameworker = getm("frameworker")
 
 local function ColorToFont(text, color)
 	return string.format(
@@ -17,9 +22,10 @@ local function ColorToFont(text, color)
 		text
 	)
 end
-
 function module.Highlight(textbox, source)
-	task.wait() --patches the issue where the executor will get stuck when you go fast in typing
+	if frameworker:IsUserMobile() then
+	task.wait() --patches the issue where the executor will get stuck when you go fast in typing, only affects mobile players
+	end
 	textbox.Text = ""
 
 	for tokenType, text in lexer.scan(source) do
