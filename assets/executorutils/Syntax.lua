@@ -7,7 +7,6 @@ end
 local lexer 	= getm("Lexer")
 local theme 	= getm("Theme")
 local textFixer = getm("TextFixer")
-local frameworker = loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))()
 
 local function ColorToFont(text, color)
 	return string.format(
@@ -19,7 +18,7 @@ local function ColorToFont(text, color)
 	)
 end
 function module.Highlight(textbox, source)
-	if frameworker:IsUserMobile() then
+	if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("TouchGui") then
 	task.wait() --patches the issue where the executor will get stuck when you go fast in typing, only affects mobile players
 	end
 	textbox.Text = ""
