@@ -1,5 +1,9 @@
+## small update for saturn. or Version 1.803G
+[+] Wave support
+[+] Aimbot support for pc executors
 ## update for executor
 [+] operators like ()[]{} will now have a color in it
+
 [+] pc users should have a no input delay in the executor (mobile is cursed i cant do anything)
 
 ## Small Update for Saturn, or Version 1.802G
