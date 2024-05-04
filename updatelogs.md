@@ -9,6 +9,8 @@
 	
  
 [+] Added ConvertStringToCFrame in Frameworker, you shouldnt have any pain trying to add a waypoint system now
+
+
 "Adversity is the first path to truth."
 	- Don Juan
 ## small update for saturn. or Version 1.803G
