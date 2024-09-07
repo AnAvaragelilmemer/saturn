@@ -20,7 +20,7 @@ local tween 	   = getm("TweenLibrary")
 local suggestions  = getm("Suggestions")
 
 local GetAsset = getsynasset or getcustomasset
-
+local version = "v1.1"
 local function LoadCustomInstance(url)
 	if url == "" then
 		return ""
@@ -39,7 +39,7 @@ local function LoadCustomInstance(url)
 end
 
 function module.new(frame)
-	local newEditor = LoadCustomInstance("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/saturn%20editor%20v1.1.rbxm?raw=true")
+	local newEditor = LoadCustomInstance("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/saturn%20editor%20"..version..".rbxm?raw=true")
 	repeat until newEditor:FindFirstChild("Scroll")
 	newEditor.Parent = frame
 
