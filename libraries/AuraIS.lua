@@ -864,6 +864,13 @@ v4.CreateLibrary = function(v32, v33, v34)
                 getgenv().monaco = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/saturn/main/assets/executorutils/initiateexecutor.lua"))()
                 monaco = monaco.new(fun,20)
             end
+	    v101.LoadExecutorText = function()
+				if runcode then 
+					runcode(monaco:GetText())
+				else
+					loadstring(monaco:GetText()))()
+			end
+		end
 			v101.CreateCard = function(v230, v231)
 				local v232 = v39.Template.Card:Clone();
 				v232.Name = v231.Title;
