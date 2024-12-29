@@ -868,7 +868,7 @@ v4.CreateLibrary = function(v32, v33, v34)
 				if runcode then 
 					runcode(monaco:GetText())
 				else
-					loadstring(monaco:GetText()))()
+					loadstring(monaco:GetText())()
 			end
 		end
 			v101.CreateCard = function(v230, v231)
