@@ -94,7 +94,7 @@ function lib.alert(text, clr, tim, special)
 		if special == "rainbow" then
 			task.spawn(function()
 				local v85 = 0;
-				while TextLabel and task.wait() do
+				while TextLabel and task.wait(.1) do
 					if v85 > 1 then
 						v85 = 0;
 					end
