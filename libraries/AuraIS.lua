@@ -791,9 +791,9 @@ v4.CreateLibrary = function(v32, v33, v34)
 						if (#v185.CurrentOption == 1) then
 							v186.Selected.Text = v185.CurrentOption[1];
 						elseif (#v185.CurrentOption == 0) then
-							v186.Selected.Text = "None";
+							v186.Selected.Text = "...";
 						else
-							v186.Selected.Text = "Various";
+							v186.Selected.Text = "...";
 						end
 					else
 						v186.Selected.Text = v185.CurrentOption[1];
