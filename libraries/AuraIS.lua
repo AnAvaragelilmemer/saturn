@@ -4,6 +4,7 @@ AuraIS (Aura Interface Suite)
 by Darkrai | Y
 located on: https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/AuraIS/Main
 Note: This UI library is not intended for modifying the core functionality
+current update: changed paragraph being stupid
 ]]
 local v0 = "Alpha 0.3";
 local v1 = 5;
@@ -54,7 +55,7 @@ local v12 = game:GetService("RunService");
 local v13 = game:GetService("Players");
 local v14 = game:GetService("CoreGui");
 local v15 = v13.LocalPlayer:GetMouse();
-local v16 = game:GetObjects("rbxassetid://16487245098")[1];
+local v16 = game:GetObjects("rbxassetid://72566950615693")[1] or game:GetObjects("rbxassetid://16487245098")[1];
 v16.Enabled = false;
 v16.DisplayOrder = 100;
 if (get_hidden_gui or gethui) then
