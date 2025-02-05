@@ -20,7 +20,7 @@ local tween 	   = getm("TweenLibrary")
 local suggestions  = getm("Suggestions")
 
 local GetAsset = getsynasset or getcustomasset
-local version = "v1.1"
+local version = "v1.2"
 local function LoadCustomInstance(url)
 	if url == "" then
 		return ""
