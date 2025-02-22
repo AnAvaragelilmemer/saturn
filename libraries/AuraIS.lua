@@ -848,12 +848,10 @@ v4.CreateLibrary = function(v32, v33, v34)
 				v214.Content.Text = v213.Description;
 				v214.Visible = true;
 				v214.Parent = v102;
+				v214.AutomaticSize = Enum.AutomaticSize.Y
+    				v214.Title.AutomaticSize = Enum.AutomaticSize.Y
+    				v214.Content.AutomaticSize = Enum.AutomaticSize.Y
 				v105();
-				local paragraphchange = {}
-				function paragraphchange:Set(text)
-				v214.Content.Text = text
-				end 
-				return paragraphchange
 			end;
 			v101.CreateLabel = function(v222, v223)
 				local v224 = v39.Template.Label:Clone();
