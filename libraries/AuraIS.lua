@@ -36,7 +36,7 @@ v4.DragFunc = function(v21, v22, v23)
 	game:GetService("UserInputService").InputChanged:Connect(function(v50)
 		if ((v50 == v25) and v24) then
 			local v117 = v50.Position - v26;
-			v23.Position = UDim2.new(v27.X.Scale, v27.X.Offset + v117.X, v27.Y.Scale, v27.Y.Offset + v117.Y);
+			game:GetService("TweenService"0:Create(v23,TweenInfo.new(0.55,Enum.EasingStyle.Quint, Enum.EasingDirection.Out){Position = UDim2.new(v27.X.Scale, v27.X.Offset + v117.X, v27.Y.Scale, v27.Y.Offset + v117.Y)}):Play();
 		end
 	end);
 end;
