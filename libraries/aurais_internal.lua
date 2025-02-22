@@ -11,7 +11,7 @@
 local G2L = {};
 
 -- Workspace.UI_Library
-G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
+G2L["1"] = Instance.new("ScreenGui", game.StarterGui);
 G2L["1"]["Name"] = [[UI_Library]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
