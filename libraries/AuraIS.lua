@@ -850,8 +850,8 @@ v4.CreateLibrary = function(v32, v33, v34)
 				v214.Parent = v102;
 				v214.AutomaticSize = Enum.AutomaticSize.Y
     				v214.Title:GetPropertyChangedSignal("Text"):Connect(function()
-        			v214.Title.Size = UDim2.new(1, -24, 0, paragraph.Content.TextBounds.Y)
-        			v214.Size = UDim2.new(1, 0, 0, paragraph.Content.TextBounds.Y + 35)
+        			v214.Title.Size = UDim2.new(1, -24, 0, v214.Content.TextBounds.Y)
+        			v214.Size = UDim2.new(1, 0, 0, v214.Content.TextBounds.Y + 35)
     				end)
 				v105();
 			end;
