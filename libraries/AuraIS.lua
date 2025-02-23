@@ -173,6 +173,7 @@ v4.CreateLibrary = function(v32, v33, v34)
 		v70.ImageLabel.Image = ((typeof(v68) == "table") and v68.Icon) or v69 or "rbxassetid://11432859220";
 		v70.TextLabel.Text = ((typeof(v68) == "table") and v68.Title) or v68 or "Unknown";
 		v70.Visible = true;
+		v70.Name = ((typeof(v68) == "table") and v68.Title) or v68 or "Unknown"
 		v70.Parent = v38;
 		local v75 = v39.Template:Clone();
 		v75.Parent = v39;
