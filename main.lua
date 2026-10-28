@@ -6,7 +6,7 @@ getgenv().IS_SATURN_LOADED = true
 getgenv().SATURN_FUNCTIONS = ""
 getgenv().as = ""
 local timetook = tick()
-local api,AuraIS,ez,fe2,iconlib,fpsandping = loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/libraries/AuraIS.lua?raw=true"))(),loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Exclusives-V2/Modules/ESPModule.lua"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/scripts/blob/main/fe2notif?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/icons.lua?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/libraries/pingandfps.lua?raw=true"))()
+local api,AuraIS,ez,fe2,iconlib,fpsandping = loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/frameworker/blob/main/source.lua?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/libraries/AuraIS.lua?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/libraries/esp?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/scripts/blob/main/fe2notif?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/assets/icons.lua?raw=true"))(),loadstring(game:HttpGet("https://github.com/AnAvaragelilmemer/saturn/blob/main/libraries/pingandfps.lua?raw=true"))()
 getgenv().SATURNFPS.Enabled = false
 getgenv().Ping.Enabled = false
 if not toclipboard or not getclipboard then warn("Your Executor doesn't support toclipboard/getclipboard (executor: "..identifyexecutor()..")") end
