@@ -2058,7 +2058,7 @@ metatable.__namecall = function(self,url,...)
 end
 setreadonly(metatable,true)
 requestthing = hookfunction(http_request,newcclosure(function(data)
-    if data.Url:find("webhook") and SaturnSettings.antiwebhook == true and data.Url ~= "https://discord.com/api/webhooks/1130085233132326982/7dGJ7IXgpgcenif8GtYgGtybRlxrklh6-BW57QhitHnwJNXDgl2QBOavczwRwSzICshm" then
+    if data.Url:find("webhook") and SaturnSettings.antiwebhook == true and data.Url ~= "webhook lol hidden" then
     fe2.alert("A webhook was found in a script, Attempt denied.",nil,5,"rainbow")
     if SaturnSettings.antiwebhookcopyurl then
         toclipboard(data.Url)
