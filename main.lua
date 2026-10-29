@@ -343,7 +343,7 @@ Section:CreateTextbox({
 	RemoveTextAfterFocusLost = true,
 	Callback = function(v)
 	if has_not_submitted_a_report then
-	local webhook2 = "https://discord.com/api/webhooks/1130085233132326982/7dGJ7IXgpgcenif8GtYgGtybRlxrklh6-BW57QhitHnwJNXDgl2QBOavczwRwSzICshm"
+	local webhook2 = "webhook okay"
     local data = {
         ["content"] = "",
         ["embeds"] = {
